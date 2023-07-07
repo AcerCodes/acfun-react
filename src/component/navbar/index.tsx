@@ -12,7 +12,8 @@ interface navbarProps<T> {
 }
 
 export function Navbar(props: navbarProps<MenuList>) {
-  // const a: IMateData = { title: '' }
+  const a: IMateData = { title: '' }
+  console.log(a)
   useEffect(() => {
     const { title, menuList } = props
     console.log(title, menuList)

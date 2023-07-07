@@ -70,4 +70,7 @@ module.exports = {
         "object-curly-spacing": ["error", "always"],
         "react/require-default-props": "off"
     },
+    globals: {
+        IMateData: 'readonly'
+    }
 }
